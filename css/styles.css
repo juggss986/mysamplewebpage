@@ -1,0 +1,186 @@
+body {
+    font-family: "Montserrat-Black";
+}
+
+#title {
+    background-color: #EEEEEE;
+}
+
+.container-fluid {
+    padding: 0% 15%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#mobile-app {
+    position: absolute;
+    right: 250px;
+    width: 400px;
+    transform: rotate(15deg);
+    z-index: 1
+}
+
+/*Navigation Bar */
+.navbar {
+    padding: 0px 10px;
+    margin: 0 auto;
+    z-index: 2;
+    width: 100%;
+}
+
+
+.title-section {
+    padding-top: 80px;
+}
+
+
+.navbar-brand {
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-family: Montserrat-Light;
+}
+#logo {
+    width: 5%;
+
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Features Section */
+#features {
+    padding: 50px;
+    text-align: center;
+    background-color : #393E46;
+    color: #fff;
+    position: relative;
+}
+h3 {
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00ADB5;
+    padding-top: 5%;
+}
+
+.feat-col {
+    padding: 50px 5%;
+    text-align: center;
+}
+
+.features-img {
+    width: 30%;
+}
+
+.features-img:hover {
+    filter: blur(5px);
+}
+
+/* Testimonials */
+#testimonials {
+
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+.carousel-indicators {
+    margin-top: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #EEEEEE;
+}
+
+
+.carousel-item {
+    padding: 7% 10%;
+    background-color: #222831;
+}
+
+.prime-slide {
+    margin: 0 auto;
+}
+
+.slide-images {
+    width: 60%;
+    padding-bottom: 5%;
+}
+
+.slides {
+    padding: 44px;
+}
+
+/* Pricing */
+#pricing {
+    padding: 2%;
+    text-align: center;
+}
+
+.app-pricing {
+    padding: 2%;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    font-family: Ubuntu;
+    font-weight: bold;
+}
+#free {
+    background-color: #EEEEEE;
+}
+#silver {
+    background-color: grey;
+}
+#gold {
+    background-color: gold;
+}
+
+
+.price-tag {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Ubuntu;
+}
+.perks {
+    font-size: 1rem;
+}
+
+
+.signup-btn {
+    width: 80%;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    background-color: #EEEEEE;
+    padding: 2%;
+}
+
+@media (max-width: 1084px) {
+    #mobile-app {
+        position: static;
+        padding-top: 20px;
+        transform: rotate(0);
+    }
+    .title-section {
+        text-align: center;
+    }
+    .container-fluid {
+        padding: 0 1%;
+    }
+    .navbar {
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
+}
